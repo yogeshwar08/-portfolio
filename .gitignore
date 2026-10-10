@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+*.tsbuildinfo
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Personal files (resume PDF + photos are served from public/assets — originals stay local)
+PHOTO.jpeg
+pic1.jpeg
+"ARALA YOGESHWAR.pdf"
+Yogeshwar_Arala_Resume.pdf
+profile_photo.jpeg

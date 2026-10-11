@@ -2,7 +2,7 @@
 
 A cinematic, streaming-platform-inspired personal portfolio built with **React 18 + Vite 6 + Framer Motion + Tailwind CSS v4**.
 
-🔗 **Live:** https://yogeshwar-portfolio.onrender.com
+🔗 **Live:** https://portfolio-ns8u.onrender.com/
 
 ---
 

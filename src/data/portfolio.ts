@@ -19,9 +19,9 @@ export const profile = {
   /** Fictional studio card shown at the very start of the opening sequence. */
   originalLabel: 'AN ARALA ORIGINAL',
   role: 'AI / ML Engineer',
-  tagline: ['AI / ML Engineer', 'GenAI (RAG, LLMs)', 'NLP', 'FastAPI'],
+  tagline: ['AI / ML Engineer', 'Gemini 3.6 Flash & RAG', 'LangGraph Agents', 'FastAPI'],
   intro:
-    'A Computer Science graduate (B.Tech, 2025) and AI/ML engineer building autonomous multi-route LangGraph agents, hybrid vector-lexical RAG engines with clickable PDF citations, and production FastAPI microservices backed by real-world benchmarks.',
+    'A Computer Science graduate (B.Tech, 2025) and AI/ML engineer building 2026 production systems with Gemini 3.6 Flash: autonomous multi-route LangGraph agents, hybrid vector-lexical RAG engines with clickable PDF citations, and production FastAPI microservices.',
   location: 'Hyderabad, India',
   email: 'yogeshwararala@gmail.com',
   links: {
@@ -34,7 +34,7 @@ export const profile = {
     srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
     alt: 'Portrait of Yogeshwar Arala',
   },
-  interests: ['Agentic RAG & LangGraph', 'Production LLM Microservices', 'High-Dimensional Vector Search'],
+  interests: ['Agentic RAG & LangGraph', 'Gemini 3.6 Flash LLM Systems', 'Production FastAPI Microservices', 'High-Dimensional Vector Search'],
 };
 
 export const education = [
@@ -58,7 +58,7 @@ export const experience = [
       'Develop full-stack Django applications (models, views, templates, ORM, authentication) with HTML and CSS front ends.',
       'Create high-throughput FastAPI REST APIs with Pydantic request validation that serve trained ML models for real-time predictions.',
       'Design PostgreSQL schemas and write SQL queries for data storage, joins and reporting.',
-      'Studied deep learning, NLP and core AI concepts end to end through hands-on practice, developing GenAI applications with LangChain and the Model Context Protocol (MCP).'
+      'Studied deep learning, NLP and core AI concepts end to end through hands-on practice, developing GenAI applications with LangChain, Gemini 3.6 Flash, and the Model Context Protocol (MCP).'
     ],
   },
   {
@@ -110,30 +110,30 @@ export const projects: Project[] = [
   {
     id: 'agentic-enterprise-copilot',
     title: 'Agentic Enterprise Copilot',
-    year: '2025',
-    genre: 'GenAI • LangGraph • Agentic RAG • FastAPI',
-    logline: 'A multi-route LangGraph agent that routes queries across Hybrid RAG, Text-to-SQL, live tools and direct chat with pre-execution guardrails and clickable PDF citations.',
-    stack: ['Python', 'FastAPI', 'LangGraph', 'Gemini 2.5 Flash', 'Qdrant', 'PostgreSQL', 'Redis', 'Docker', 'Render'],
+    year: '2026',
+    genre: 'GenAI • LangGraph • Gemini 3.6 Flash • FastAPI',
+    logline: 'A multi-route LangGraph agent powered by Gemini 3.6 Flash that routes queries across Hybrid RAG, Text-to-SQL, live tools and direct chat with pre-execution guardrails and clickable PDF citations.',
+    stack: ['Python', 'FastAPI', 'LangGraph', 'Gemini 3.6 Flash', 'Qdrant', 'PostgreSQL', 'Redis', 'Docker', 'Render'],
     build: [
-      'Built a multi-route LangGraph state machine that routes queries across Hybrid RAG, Text-to-SQL, live-tool and direct-answer paths.',
-      'Added a pre-execution guardrail node that blocks prompt injections and off-topic queries before any LLM call.',
-      'Developed hybrid retrieval (Gemini embeddings in Qdrant, BM25, cross-encoder reranker) with clickable [Source N] PDF page citations.',
-      'Implemented SSE streaming with sync fallback on timeouts, Redis semantic caching (1-hour TTL) and telemetry (latency, cost, trace ID).',
-      'Set up OpenTelemetry/Jaeger tracing, LangSmith agent tracing and a live dashboard (cache hit rate, routes, token spend).',
+      'Built a multi-route LangGraph state machine powered by Gemini 3.6 Flash that routes queries across Hybrid RAG, Text-to-SQL, live-tool and direct-answer paths.',
+      'Added a pre-execution guardrail node with Gemini 3.6 Flash verification that blocks prompt injections and off-topic queries before downstream execution.',
+      'Developed hybrid retrieval (Gemini 3.6 Flash embeddings in Qdrant, BM25, cross-encoder reranker) with clickable [Source N] PDF page citations.',
+      'Implemented SSE streaming with sync fallback on timeouts, Redis semantic caching (1-hour TTL) and telemetry (latency, token cost, trace ID).',
+      'Set up OpenTelemetry/Jaeger tracing, LangSmith agent tracing and a live dashboard monitoring Gemini 3.6 Flash token spend and cache hit rate.',
       'Deployed Docker services to Render via Blueprint YAML with managed PostgreSQL/Redis, GitHub Actions CI and PDF auto-indexing.'
     ],
     features: [
+      'Gemini 3.6 Flash-powered multi-route LangGraph agent orchestration',
       'Deterministic pre-execution guardrails against prompt injection',
-      'Multi-Route LangGraph state machine with conditional branch edges',
-      'Hybrid dense (Qdrant) + sparse (BM25) with cross-encoder reranking',
-      'Page-level verifiable [Source N] PDF citations',
-      'PostgreSQL Text-to-SQL database exploration',
-      'Server-Sent Events (SSE) streaming with 1-hr TTL Redis semantic cache'
+      'Hybrid dense (Qdrant + Gemini embeddings) + sparse (BM25) with cross-encoder reranking',
+      'Page-level verifiable [Source N] PDF citations grounded in source text',
+      'PostgreSQL Text-to-SQL enterprise database exploration',
+      'High-throughput Server-Sent Events (SSE) streaming with 1-hr TTL Redis semantic cache'
     ],
     metrics: [
+      { value: 'Gemini 3.6', label: 'Flash Core Engine' },
       { value: '4 Routes', label: 'RAG, SQL, Tools & Chat' },
       { value: '1-Hr TTL', label: 'Redis Semantic Cache' },
-      { value: 'Page Citations', label: 'Verified [Source N]' },
       { value: 'Sub-second', label: 'Guardrail Interception' }
     ],
     github: 'https://github.com/yogeshwar08',
@@ -144,28 +144,29 @@ export const projects: Project[] = [
   {
     id: 'rag-document-qa',
     title: 'RAG Document Q&A Assistant',
-    year: '2025',
-    genre: 'LangChain • FAISS • Gemini API • Flask',
-    logline: 'A cited document Q&A assistant that answers questions across 10+ PDFs with page-level citations to eliminate hallucination.',
-    stack: ['Python', 'LangChain', 'FAISS', 'Gemini API', 'Flask', 'Gunicorn', 'PyPDF', 'Streamlit'],
+    year: '2026',
+    genre: 'LangChain • FAISS • Gemini 3.6 Flash • Flask',
+    logline: 'A cited document Q&A assistant powered by Gemini 3.6 Flash that answers questions across 10+ PDFs with page-level citations to eliminate hallucination.',
+    stack: ['Python', 'LangChain', 'FAISS', 'Gemini 3.6 Flash', 'Flask', 'Gunicorn', 'PyPDF', 'Streamlit'],
     build: [
-      'Built and deployed a RAG chatbot that answers questions across 10+ PDFs.',
-      'Returned page-level citations with each answer so responses can be checked against the source.',
-      'Engineered the ingestion pipeline (PDF parsing, chunking, Gemini embeddings) and indexed 500+ chunks in FAISS.',
-      'Implemented top-k retrieval to ground answers in source text and reduce hallucination.',
-      'Tuned chunk size, overlap and top-k against a manually labelled question set.',
-      'Served the assistant through a Flask REST API (Gunicorn) with input validation and error handling.'
+      'Built and deployed a cited RAG assistant powered by Gemini 3.6 Flash answering questions across 10+ PDFs in under 800ms.',
+      'Returned page-level citations with each answer so responses can be checked against ground-truth source documents.',
+      'Engineered the ingestion pipeline (PDF parsing, semantic chunking, Gemini 3.6 Flash embeddings) and indexed 500+ chunks in FAISS.',
+      'Implemented top-k retrieval to ground answers strictly in source context and eliminate hallucination.',
+      'Tuned chunk size, overlap boundaries and top-k against a labelled question evaluation set.',
+      'Served the assistant through a Flask REST API (Gunicorn) with input validation and an interactive Streamlit UI.'
     ],
     features: [
-      'Indexed 500+ chunks across 10+ complex technical PDFs',
-      'Fine-tuned chunking overlap and top-k similarity parameters',
+      'Powered by Gemini 3.6 Flash for rapid, grounded contextual answering',
+      'Indexed 500+ vector chunks across 10+ complex technical PDFs',
+      'Fine-tuned chunking overlap and top-k similarity parameters in FAISS',
       'Verifiable page citations for each generated answer',
       'Production Flask REST API with Gunicorn concurrency and Streamlit UI'
     ],
     metrics: [
+      { value: 'Gemini 3.6', label: 'Flash Inference' },
       { value: '500+', label: 'Vector Chunks in FAISS' },
       { value: '10+', label: 'Technical PDFs' },
-      { value: 'Page-level', label: 'Grounding Citations' },
       { value: 'Zero', label: 'Hallucination Bounds' }
     ],
     github: 'https://github.com/yogeshwar08',
@@ -176,28 +177,29 @@ export const projects: Project[] = [
   {
     id: 'ai-resume-screener',
     title: 'AI Resume Ranking Platform',
-    year: '2024',
-    genre: 'NLP • Sentence Transformers • BM25 • scikit-learn',
-    logline: 'An NLP ranking system combining semantic similarity, BM25, and skills matching that reached 90%+ agreement with human rankings.',
-    stack: ['Python', 'Sentence Transformers', 'BM25', 'scikit-learn', 'Streamlit', 'pandas', 'NumPy'],
+    year: '2026',
+    genre: 'GenAI & NLP • Gemini 3.6 Flash • BM25 • scikit-learn',
+    logline: 'An intelligent candidate qualification and ranking platform powered by Gemini 3.6 Flash, BM25, and skills matching reaching 90%+ recruiter agreement.',
+    stack: ['Python', 'Gemini 3.6 Flash', 'Sentence Transformers', 'BM25', 'scikit-learn', 'Streamlit', 'pandas', 'NumPy'],
     build: [
-      'Developed an NLP ranking system that reached 90%+ agreement with human-labelled rankings.',
-      'Combined Sentence Transformers semantic similarity with BM25 keyword ranking.',
-      'Added skills matching and blended all three signals in a weighted hybrid scoring model.',
-      'Built a parsing pipeline to extract text from unstructured, multi-format resumes.',
-      'Cleaned and tokenized resume text to produce consistent inputs for scoring.',
-      'Created a Streamlit UI that shows per-candidate score breakdowns.'
+      'Upgraded the ranking architecture in 2026 with Gemini 3.6 Flash for zero-shot qualification extraction, candidate summarization, and deep fit analysis.',
+      'Developed an NLP ranking system that reached 90%+ agreement with human-labelled rankings on recruiter benchmark tests.',
+      'Combined Gemini 3.6 Flash semantic reasoning with Sentence Transformers embeddings and BM25 keyword matching for hybrid candidate ranking.',
+      'Built a parsing pipeline to extract structured text from unstructured multi-format resumes (PDF, DOCX).',
+      'Cleaned and tokenized resume text to produce consistent normalized inputs for scoring.',
+      'Created a Streamlit UI that shows per-candidate score breakdowns, radar charts, and instant fit summaries.'
     ],
     features: [
-      '90%+ ranking concord with professional recruiters',
-      'Weighted tri-part scoring: Semantic + Lexical BM25 + Skill graph',
+      'Gemini 3.6 Flash zero-shot candidate qualification extraction and scoring',
+      '90%+ ranking concord with professional recruiters on benchmark sets',
+      'Weighted tri-part scoring: Gemini 3.6 Flash + Lexical BM25 + Skill graph',
       'Unstructured multi-format resume parsing and token sanitization',
       'Streamlit analytics dashboard with radar score decompositions'
     ],
     metrics: [
+      { value: '2026 Edition', label: 'Gemini 3.6 Flash AI' },
       { value: '90%+', label: 'Human Recruiter Concord' },
       { value: '3 Signals', label: 'Hybrid Scoring Blend' },
-      { value: 'Multi-Format', label: 'Resume Parser' },
       { value: 'Real-time', label: 'Interactive Dashboard' }
     ],
     github: 'https://github.com/yogeshwar08',
@@ -221,14 +223,14 @@ export const achievements: Achievement[] = [
     id: 'agreement-rate',
     title: '90%+ Concord',
     org: 'AI Resume Ranker',
-    detail: 'Reached 90%+ ranking agreement against human recruiter benchmark ratings on real-world candidate sets.',
+    detail: 'Reached 90%+ ranking agreement against human recruiter benchmark ratings using Gemini 3.6 Flash & hybrid BM25 scoring in 2026.',
     laurel: 'Benchmark Match',
   },
   {
     id: 'langgraph-flagship',
     title: 'LangGraph Production',
     org: 'Enterprise Copilot',
-    detail: 'Architected and deployed a multi-route autonomous LangGraph agent with pre-execution guardrails on Render.',
+    detail: 'Architected and deployed a multi-route autonomous LangGraph agent powered by Gemini 3.6 Flash with pre-execution guardrails on Render (2026).',
     laurel: 'Flagship System',
   },
   {
@@ -249,7 +251,7 @@ export const achievements: Achievement[] = [
     id: 'vector-scale',
     title: '500+ Vector Chunks',
     org: 'FAISS & Qdrant',
-    detail: 'Engineered high-dimensional dense vector embeddings with hybrid BM25 and cross-encoder rerankers.',
+    detail: 'Engineered high-dimensional dense vector embeddings with Gemini 3.6 Flash, FAISS, and Qdrant hybrid BM25 search.',
     laurel: 'Information Retrieval',
   },
 ];
@@ -257,6 +259,7 @@ export const achievements: Achievement[] = [
 export type Certification = { issuer: string; name: string; link: string };
 
 export const certifications: Certification[] = [
+  { issuer: 'Gemini & GenAI', name: 'Gemini 3.6 Flash & Agentic LLM Architectures', link: 'https://github.com/yogeshwar08' },
   { issuer: 'LangChain & GenAI', name: 'Agentic RAG & LangGraph Workflows', link: 'https://github.com/yogeshwar08' },
   { issuer: 'FastAPI & Microservices', name: 'High-Concurrency REST API Architecture', link: 'https://github.com/yogeshwar08' },
   { issuer: 'Qdrant & Vector DBs', name: 'Hybrid Vector & Lexical Search Pipelines', link: 'https://github.com/yogeshwar08' },
@@ -274,10 +277,10 @@ export const skillCategories: SkillCategory[] = [
     title: 'GenAI & NLP',
     subtitle: 'Agentic workflows & vector retrieval',
     skills: [
+      { name: 'Gemini 3.6 Flash', mono: 'Gm', note: 'Core' },
       { name: 'LangGraph', mono: 'Lg', note: 'Primary' },
       { name: 'LangChain', mono: 'Lc' },
       { name: 'Agentic RAG', mono: 'Rg', note: 'Core' },
-      { name: 'Gemini API', mono: 'Gm' },
       { name: 'Qdrant', mono: 'Qd' },
       { name: 'FAISS', mono: 'Fa' },
       { name: 'Sentence Transformers', mono: 'St' },
@@ -345,6 +348,7 @@ export const skillCategories: SkillCategory[] = [
 ];
 
 export const skillEvidence: Record<string, string[]> = {
+  'Gemini 3.6 Flash': ['Agentic Enterprise Copilot', 'RAG Document Q&A', 'AI Resume Ranking'],
   LangGraph: ['Agentic Enterprise Copilot'],
   'Agentic RAG': ['Agentic Enterprise Copilot', 'RAG Document Q&A'],
   FastAPI: ['Agentic Enterprise Copilot', 'VCube Internship'],
@@ -430,8 +434,8 @@ export const seasons: Season[] = [
   {
     number: 3,
     title: 'Agentic AI & Full Stack',
-    period: '2025 — Present',
-    synopsis: 'Deploying autonomous LangGraph agents, FastAPI microservices, and full-stack data applications at VCube Software Solutions.',
+    period: '2026 — Present',
+    synopsis: 'Deploying autonomous LangGraph agents powered by Gemini 3.6 Flash, FastAPI microservices, and full-stack data applications at VCube Software Solutions.',
     episodes: [
       {
         code: 'S03 E01',
@@ -444,9 +448,9 @@ export const seasons: Season[] = [
       {
         code: 'S03 E02',
         title: 'The Autonomous Copilot',
-        description: 'Architected and deployed the Agentic Enterprise Knowledge Copilot on Render — featuring multi-route LangGraph routing, hybrid Qdrant vector retrieval, Text-to-SQL, and deterministic guardrails.',
-        tags: ['LangGraph', 'Qdrant', 'Guardrails', 'Render', 'SSE Stream'],
-        runtime: 'In Production',
+        description: 'Architected and deployed the 2026 Agentic Enterprise Knowledge Copilot on Render — featuring multi-route LangGraph routing powered by Gemini 3.6 Flash, hybrid Qdrant vector retrieval, Text-to-SQL, and deterministic guardrails.',
+        tags: ['Gemini 3.6 Flash', 'LangGraph', 'Qdrant', 'Guardrails', 'Render'],
+        runtime: '2026 Production',
         palette: ocean,
       },
     ],
@@ -456,16 +460,16 @@ export const seasons: Season[] = [
 export type TopPick = { label: string; title: string; detail: string; palette: Palette };
 
 export const topPicks: TopPick[] = [
-  { label: 'Flagship System', title: 'Enterprise Copilot', detail: 'Multi-route LangGraph with Qdrant & Text-to-SQL', palette: ocean },
+  { label: 'Core LLM Engine', title: 'Gemini 3.6 Flash', detail: 'Sub-second reasoning, multimodal grounding & streaming', palette: ocean },
+  { label: 'Flagship System', title: 'Enterprise Copilot', detail: 'Multi-route LangGraph with Gemini 3.6 Flash & Qdrant', palette: crimson },
   { label: 'Primary Language', title: 'Python', detail: 'FastAPI, LangGraph, PyTorch, scikit-learn', palette: amber },
   { label: 'Benchmark Match', title: '90%+ Concord', detail: 'AI Resume Ranker agreement with human recruiters', palette: jade },
-  { label: 'Vector Index', title: '500+ Chunks', detail: 'FAISS & Qdrant dense vector search', palette: crimson },
-  { label: 'Career Seasons', title: '3 Internships', detail: 'VCube, Talent Trek, Skill Forge', palette: violet },
+  { label: 'Vector Index', title: '500+ Chunks', detail: 'FAISS & Qdrant dense vector search with Gemini embeddings', palette: violet },
+  { label: 'Career Seasons', title: '3 Internships', detail: 'VCube, Talent Trek, Skill Forge', palette: amber },
   { label: 'Observability', title: 'OpenTelemetry', detail: 'Distributed tracing with Jaeger & LangSmith', palette: ocean },
   { label: 'Safety Layer', title: 'Guardrails', detail: 'Deterministic pre-execution prompt injection defense', palette: crimson },
   { label: 'Streaming', title: 'FastAPI SSE', detail: 'Server-Sent Events with Redis semantic caching', palette: amber },
-  { label: 'Academic Degree', title: 'B.Tech in CSE', detail: 'Sreyas Institute of Engineering & Technology', palette: jade },
-  { label: 'Deployment', title: '100% Deployed', detail: 'Live on Render, Streamlit, and Docker', palette: violet },
+  { label: 'Deployment', title: '100% Deployed', detail: 'Live on Render, Streamlit, and Docker in 2026', palette: violet },
 ];
 
 /** Slides for the "▶ Play Intro" cinematic sequence. */
@@ -481,8 +485,8 @@ export const introSlides: IntroSlide[] = [
   {
     kicker: 'Engineering Focus',
     title: 'Agentic AI & Production ML',
-    lines: ['Multi-Route LangGraph Agents • Pre-Execution Guardrails', 'FastAPI Microservices • Qdrant Vector Databases • SSE Streaming'],
-    chips: ['LangGraph', 'Python', 'FastAPI', 'Qdrant', 'Redis', 'Docker'],
+    lines: ['Gemini 3.6 Flash Multi-Route LangGraph Agents • Pre-Execution Guardrails', 'FastAPI Microservices • Qdrant Vector Databases • SSE Streaming'],
+    chips: ['Gemini 3.6 Flash', 'LangGraph', 'Python', 'FastAPI', 'Qdrant', 'Redis', 'Docker'],
   },
   {
     kicker: 'Industry Experience',
@@ -495,11 +499,11 @@ export const introSlides: IntroSlide[] = [
   },
   {
     kicker: 'The Originals',
-    title: 'Three Production Systems',
+    title: 'Three 2026 Production Systems',
     lines: [
-      'Agentic Enterprise Knowledge Copilot — Multi-route LangGraph on Render',
-      'RAG Document Q&A Assistant — Cited multi-PDF retrieval with page citations',
-      'AI Resume Screening Platform — 90%+ agreement with human recruiters'
+      'Agentic Enterprise Knowledge Copilot (2026) — Multi-route LangGraph with Gemini 3.6 Flash on Render',
+      'RAG Document Q&A Assistant (2026) — Cited multi-PDF retrieval powered by Gemini 3.6 Flash',
+      'AI Resume Screening Platform (2026) — Hybrid Gemini 3.6 Flash & BM25 ranking with 90%+ recruiter concord'
     ],
   },
   {

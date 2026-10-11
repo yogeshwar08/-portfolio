@@ -6,7 +6,7 @@ export default function About() {
   const facts = [
     { k: 'Degree', v: 'B.Tech, CSE (2025)', s: `${education[0].school} · ${education[0].score}` },
     { k: 'Active Role', v: `${experience[0].role}`, s: `${experience[0].company} · ${experience[0].period}` },
-    { k: 'Primary Focus', v: 'Python & GenAI', s: 'LangGraph, FastAPI, Agentic RAG' },
+    { k: 'Primary Focus', v: 'Gemini 3.6 Flash & GenAI', s: 'LangGraph, FastAPI, Agentic RAG' },
     { k: 'Based in', v: profile.location, s: 'India' },
   ];
 

@@ -27,9 +27,11 @@ build/
 .DS_Store
 Thumbs.db
 
-# Personal files (resume PDF + photos are served from public/assets — originals stay local)
+# Personal source files — resume + raw photos stay local only
 PHOTO.jpeg
 pic1.jpeg
-"ARALA YOGESHWAR.pdf"
-Yogeshwar_Arala_Resume.pdf
 profile_photo.jpeg
+Yogeshwar_Arala_Resume.pdf
+
+# The PDF with spaces in name
+ARALA YOGESHWAR.pdf
